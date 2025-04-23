@@ -87,7 +87,9 @@ class DesktopHeader extends React.Component {
               aria-label={intl.formatMessage(messages['header.label.main.nav'])}
               className="nav main-nav"
             >
-              {this.renderMainMenu()}
+              {/* {this.renderMainMenu()} */}
+
+              <a class="nav-link active" href="/">Cursos</a>
             </nav>
             <nav
               aria-label={intl.formatMessage(messages['header.label.secondary.nav'])}
